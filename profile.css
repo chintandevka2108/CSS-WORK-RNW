@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Profile card styles */
+  .profile-card 
+  {
+    width: 300px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 40px 20%;
+    overflow: hidden; /* Add this to prevent overflow */
+  }
+  
+  /* Profile image styles */
+  .profile-image 
+  {
+    width: 10px;
+    height: 10px;
+    border-radius: 70%;
+    overflow: hidden; /* Add this to prevent overflow */
+    margin: 20px auto;
+  }
+  
+  .profile-image img
+   {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+  
+  /* Profile info styles */
+  .profile-info 
+  {
+    padding: 20px;
+  }
+  
+  .profile-info h2 
+  {
+    margin-top: 0;
+  }
+  
+  /* Profile stats styles */
+  .profile-stats 
+  {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .stat 
+  {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .stat span
+   {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .stat p 
+  {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Add a background image to the profile card */
+  .profile-card 
+  {
+    background-image: linear-gradient(to bottom, #f9f9f9, #fff);
+    background-size: 100% 100px;
+    background-position: 0% 100%;
+  }

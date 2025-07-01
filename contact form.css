@@ -1,0 +1,69 @@
+/* General form styles */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Form group (for each label + input or textarea) */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px); /* Adjusting for padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group-1
+{
+    display: flex;
+    height: 30px;
+    width: 100%;
+}
+.form-group-1 input{
+    padding-left: 10px;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+/* Button styles */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #7b08d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e7e40c;
+}
